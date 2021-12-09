@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title> CS Graded Exercise</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jo Leo P. Presaldo">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="09-12-2021">
+
+		<link rel="icon" href="icon.png" type="image/gif">
+
+		<style>
+		.design1:target{
+  			border: 5px solid #ABCDEF;
+  			background-color: #DA756F;
+            color: blue;
+		}
+        
+		.design2:target{
+  			border: 10px dotted green;
+  			background-color: #e5eecc;
+		}
+        
+        div{
+        	border: 3px solid black;
+            background-color: whitesmoke;
+            width: 200px;
+            height: 100px;
+        }
+        
+        a{
+        	border: 4px outset grey;
+            background-color: darkgrey;
+            color: yellow;
+            text-decoration: none;
+        }
+        
+        p{
+        	display: inline;
+        }
+		</style>
+	</head>
+    
+	<body>
+
+		<p><a href="#div1"> CHANGE DIV 1 </a></p>
+		<p><a href="#div2"> CHANGE DIV 2 </a></p>
+        
+        <br>
+
+		<p><div class = "design1" id="div1"><b>THIS IS DIV 1</b></div></p>
+		<p><div class = "design2" id="div2"><b>THIS IS DIV 2</b></div></p>
+
+	</body>
+</html>
